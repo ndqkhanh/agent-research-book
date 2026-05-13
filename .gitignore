@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Jekyll build output and caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler / Ruby (if running Jekyll locally)
+Gemfile.lock
+vendor/
+.bundle/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python (build_book.py byproducts, if any)
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local secrets and node_modules (just in case)
+.env
+.env.local
+node_modules/
+
+# Backup files
+*.bak
+*.orig

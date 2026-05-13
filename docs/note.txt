@@ -1,0 +1,28 @@
+Papers:
+
+Consider giving an AI agent the keys to a real company’s software systems—not a toy sandbox, but a living, breathing environment where databases talk to servers, services depend on each other, and mistakes actually matter. -> https://arxiv.org/abs/2604.15384
+For a while now, the promise of “agentic AI” has been simple: give models more steps, more time, more room to think—and they’ll handle increasingly complex, long-horizon tasks. -> https://arxiv.org/abs/2604.11978
+Moving Beyond the Black Box: The Agentic Future of Radiology -> https://arxiv.org/abs/2604.15231
+Researchers from independent academic institutions (including University College London) reverse-engineered publicly available Claude Code TypeScript source to map out how a modern AI agent system is actually built—not from internal docs, but from the code itself. -> https://arxiv.org/abs/2604.14228
+OpenAI’s GPT-Rosalind represents a shift from general-purpose language models toward domain-specialized, tool-integrated reasoning systems for biology. -> https://openai.com/form/life-sciences-access/
+GLM-5: from Vibe Coding to Agentic Engineering -> https://arxiv.org/abs/2602.15763
+Loop, Think, & Generalize: Implicit Reasoning in Recurrent-Depth Transformers -> https://arxiv.org/abs/2604.07822
+dnaHNet: A Scalable and Hierarchical Foundation Model for Genomic Sequence Learning -> https://arxiv.org/abs/2602.10603 
+ClawBench: Can AI Agents Complete Everyday Online Tasks? -> https://arxiv.org/abs/2604.08523 , https://claw-bench.com/ 
+Your Agent Is Mine: Measuring Malicious Intermediary Attacks on the LLM Supply Chain -> https://arxiv.org/abs/2604.08407 
+Autogenesis: A Self-Evolving Agent Protocol (Nanyang Technological University, April 2026) -> https://arxiv.org/abs/2604.15034 
+The Future Is Neuro-Symbolic: Where Has It Been, and Where Is It Going? (Gary Marcus & Vaishak Belle, AAAI 2026) -> https://ojs.aaai.org/index.php/AAAI/article/view/42130 
+Claw-Eval: Toward Trustworthy Evaluation of Autonomous Agents  (University of Peking, April 2026) -> https://arxiv.org/abs/2604.06132 
+Artificial Intelligence and the Structure of Mathematics (Harvard & University of Maryland, April 2026) -> https://arxiv.org/abs/2604.06107 
+The art of AI harness engineering (BDTechTalks, April 2026) -> https://open.substack.com/pub/bdtechtalks/p/the-art-of-ai-harness-engineering?utm_campaign=post-expanded-share&utm_medium=web 
+The Missing Product Layer for Multi-Agent Systems (Adeline Labs, April 2026) -> https://open.substack.com/pub/adalineai/p/multi-agent-systems-product-control-plane?utm_campaign=post-expanded-share&utm_medium=web 
+LangChain Just Released Deep Agents — And It Changes How You Build AI Systems (April 2026) -> https://medium.com/@darshandagaa/langchain-just-released-deep-agents-and-it-changes-how-you-build-ai-systems-cc2371b04714#bypass 
+https://open.substack.com/pub/generativeprogrammer/p/12-agentic-harness-patterns-from?utm_campaign=post-expanded-share&utm_medium=web
+https://open.substack.com/pub/strategizeyourcareer/p/harness-engineering-ai-agents?utm_campaign=post-expanded-share&utm_medium=post%20viewer 
+Hyperagents (FAIR at Meta, March 2026) -> https://arxiv.org/abs/2603.19461 
+Components of a Coding Agent (Sebastian Raschka, April 2026) -> https://open.substack.com/pub/sebastianraschka/p/components-of-a-coding-agent?utm_campaign=post-expanded-share&utm_medium=web 
+Adaptation of Agentic AI: A Survey of Post-Training, Memory, and Skills (March 2026, 89 pages) -> https://arxiv.org/abs/2512.16301 
+VoiceAgentRAG: Solving the RAG Latency Bottleneck in Real-Time Voice Agents Using Dual-Agent Architectures (Salesforce, March 2026) -> https://arxiv.org/abs/2603.02206 
+Agents of Chaos (Northeastern University, February 2026, 84 pages) -> https://arxiv.org/abs/2602.20021 
+The Delta of Thought: Channeling Rivers of Commonsense Knowledge in the Sea of Metaphorical Interpretations (University of Salerno & University of Turin, IJCAI 2025) -> https://www.ijcai.org/proceedings/2025/1146 
+Efficient Reasoning with Balanced Thinking (Harbin Institute of Technology, March 2026) -> https://arxiv.org/abs/2603.12372

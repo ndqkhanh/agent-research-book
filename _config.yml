@@ -1,0 +1,86 @@
+title: "Agent Research Book"
+description: "114 deep-dives on AI-agent harness engineering — May 2026"
+author: ndqkhanh
+
+# GitHub Pages settings.
+# `baseurl` is the path component after the user/org subdomain.
+# Default repo URL: https://ndqkhanh.github.io/agent-research-book/
+url: "https://ndqkhanh.github.io"
+baseurl: "/agent-research-book"
+
+# Theme: just-the-docs is supported as a remote theme on GitHub Pages
+# and is the standard choice for documentation sites with sidebar nav + search.
+remote_theme: just-the-docs/just-the-docs
+
+# Plugins (all whitelisted on GitHub Pages).
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-readme-index
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Resolve [text](file.md) links to file.html across the site.
+relative_links:
+  enabled: true
+  collections: false
+
+# Synthesise YAML front matter for every .md so the theme renders them as pages.
+optional_front_matter:
+  remove_originals: true
+
+# Use README.md as the directory index where one isn't otherwise specified.
+readme_index:
+  enabled: true
+  remove_originals: false
+
+# Pull the page <title> from the first H1 of each markdown file.
+titles_from_headings:
+  enabled: true
+  strip_title: false
+  collections: false
+
+# just-the-docs configuration.
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 2
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+heading_anchors: true
+color_scheme: dark
+
+aux_links:
+  "Interactive book (index.html)":
+    - "/agent-research-book/docs/index.html"
+  "GitHub":
+    - "https://github.com/ndqkhanh/agent-research-book"
+
+# Footer customisation.
+footer_content: "Content licensed under <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Build script (build_book.py) under MIT."
+
+# Files Jekyll should not process or include in the build.
+exclude:
+  - README.md.bak
+  - .DS_Store
+  - .jekyll-cache
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+# Markdown engine and code highlighting.
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+  hard_wrap: false
+
+# Permalinks: keep filenames intact so [chapter-99](99-foo.md) → /99-foo.html.
+permalink: pretty
