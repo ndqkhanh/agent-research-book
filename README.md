@@ -3,23 +3,22 @@
 [![Pages](https://img.shields.io/badge/read-online-blue)](https://ndqkhanh.github.io/agent-research-book/)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)](LICENSE)
 
-**114 deep-dives on AI-agent harness engineering** — from agent loops and skills to the May-2026 frontier of reasoning models, agentic RL, persistent memory, and computer-use agents.
+**321 deep-dives on AI-agent harness engineering** — from agent loops and skills to the May-2026 frontier of reasoning models, agentic RL, persistent memory, multi-agent coordination, scaling laws, agent security, and production operations.
 
 - 📖 **Read online**: <https://ndqkhanh.github.io/agent-research-book/>
 - 📚 **Interactive book** (single self-contained HTML): [`docs/index.html`](docs/index.html)
 - 🗂️ **Full chapter index**: [`docs/README.md`](docs/README.md)
-- 🆕 **What's new — May 2026**: [chapters 100–114](docs/114-may-2026-landscape-update.md) cover DeepSeek-R1, multi-turn agentic RL (RAGEN, ARTIST, Agent Lightning), persistent memory (Mem0, Letta), computer-use agents (Anthropic, Operator, Browser-Use), the OSS-framework consolidation (OpenHands, smolagents, LangGraph), and Magentic-One.
+- 🆕 **What's new — May 2026**: chapters 100–321 cover memory systems (MemTier, Mnema, Mem0), skill discovery & self-evolution (AutoSkill, EvoSkill, SkillRL), multi-agent coordination & multi-hop reasoning, agent scaling laws (test-time compute, verifier/best-of-N, parallel scaling), production runtimes (LangGraph, AutoGen v0.4, Google ADK, OpenAI Agents SDK), agent security (prompt injection, supply chain, isolation), the Argus Omega skill-router design, deep research agent surveys, and 2026 synthesis capstones.
 
 ## Repository layout
 
 ```
 agent-research-book/
-├── docs/                     # 114 chapter markdown files + interactive book + presentations
-│   ├── 01-agent-loop-architecture.md  ...  114-may-2026-landscape-update.md
+├── docs/                     # 321 chapter markdown files + interactive book
+│   ├── 01-agent-loop-architecture.md  ...  321-spec-driven-development-bmad-ai-2026-deep-synthesis.md
 │   ├── index.html            # The Harness Engineering Book (build_book.py output)
 │   ├── build_book.py         # Regenerates index.html from the markdown chapters
-│   ├── README.md             # Categorised chapter index
-│   └── *.html                # SDLC / synthesis presentations and agendas
+│   └── README.md             # Categorised chapter index
 ├── harness-engineering/      # Synthesis essays and cross-paper notes
 └── index.md                  # GitHub Pages homepage (Jekyll)
 ```
